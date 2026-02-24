@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">NodeBotDashboard</string>
+    <string name="app_name">Node Bot Dashboard</string>
+    <string name="version_format">v%1$s</string>
+    <string name="bot_dashboard_title">%1$s Bot Setup</string>
+    <string name="status_format">Status: %1$s</string>
+    <string name="ram_usage_format">RAM usage: %1$d MB</string>
+    <string name="disk_usage_format">Disk usage: %1$d MB</string>
+    <string name="about_body">Node Bot Dashboard v%1$s\n\nThis app is designed for managing Discord bots with an integrated terminal and runtime tools.\n\nMain features:\n- In-app terminal interface\n- Add JavaScript/Python bot profiles\n- Bot dashboard with startup/modules/network/explorer sections\n- Embedded Node runtime bootstrap for internal local service tasks\n- Configurable settings for bot operators\n\nUse this app to organize scripts, inspect status, and quickly operate your bot workflows from Android.</string>
 </resources>
