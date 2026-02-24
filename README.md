@@ -28,7 +28,7 @@ Each bot dashboard contains:
    `sdk.dir=/absolute/path/to/android/sdk`
 2. Build debug APK:
    ```bash
-   ./.tools/gradle-8.14.3/bin/gradle assembleDebug
+   ./gradlew assembleDebug
    ```
 3. APK output (typical path):
    `app/build/outputs/apk/debug/app-debug.apk`
