@@ -5,18 +5,16 @@
     android:orientation="vertical"
     android:padding="16dp">
 
-    <Button
-        android:id="@+id/button_call_node"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Call Node.js" />
-
-    <TextView
-        android:id="@+id/text_output"
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnInstallModules"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="Waiting..."
-        android:textSize="16sp" />
+        android:text="Download Node/Python Modules" />
 
+    <TextView
+        android:id="@+id/tvModulesOutput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="No module jobs yet."/>
 </LinearLayout>
