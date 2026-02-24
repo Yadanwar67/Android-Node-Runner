@@ -11,8 +11,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar">
 
+        <activity android:name=".ui.about.AboutActivity" />
+        <activity android:name=".ui.settings.SettingsActivity" />
+        <activity android:name=".ui.bot.BotDashboardActivity" />
+        <activity android:name=".ui.bot.BotTypeSelectionActivity" />
+        <activity android:name=".TerminalActivity" />
+
         <activity
-            android:name=".MainActivity"
+            android:name=".MainMenuActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
